@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pace.cs3892018team5.dev.chinesefortuneaide.Tab2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:id="@+id/fortune"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/spalsh_new">
+
+        <ImageButton
+
+            android:id="@+id/btnFortune"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="false"
+            android:background="@mipmap/fortune"
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/fortuneImage"
+            android:layout_width="301dp"
+            android:layout_height="244dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="120dp"
+            android:src="@mipmap/myscrolnew"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtFortune"
+            android:layout_width="262dp"
+            android:layout_height="124dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="142dp"
+            android:textSize="40px" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:src="@mipmap/dragon"
+        android:visibility="gone" />
+
+</FrameLayout>

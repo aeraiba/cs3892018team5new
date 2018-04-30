@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "568269514999",
+    "firebase_url": "https://cs389firebaseproject.firebaseio.com",
+    "project_id": "cs389firebaseproject",
+    "storage_bucket": "cs389firebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568269514999:android:e7f5fa18844b311c",
+        "android_client_info": {
+          "package_name": "pace.cs3892018team5.dev.chinesefortuneaide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568269514999-8fhrs7ghulqao5g561nt4isa5rb6sotq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pace.cs3892018team5.dev.chinesefortuneaide",
+            "certificate_hash": "7fea297ed6b594a8760ccf03a27b5505f7b04cbd"
+          }
+        },
+        {
+          "client_id": "568269514999-osa5jh8c99lr7v6kst7mavd0006rhbt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC93oS7NbFvfFXrHFmZttMsPPz6NUttrII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568269514999-osa5jh8c99lr7v6kst7mavd0006rhbt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568269514999:android:d7fe1445382a803f",
+        "android_client_info": {
+          "package_name": "pace.dev.varney.randomfourtune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568269514999-kn33r3197aki2a3nm1p2h5j1ctb7udl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pace.dev.varney.randomfourtune",
+            "certificate_hash": "4e6cc2e9986ab0d36cd40f445511d3513f61a549"
+          }
+        },
+        {
+          "client_id": "568269514999-osa5jh8c99lr7v6kst7mavd0006rhbt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC93oS7NbFvfFXrHFmZttMsPPz6NUttrII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568269514999-osa5jh8c99lr7v6kst7mavd0006rhbt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
