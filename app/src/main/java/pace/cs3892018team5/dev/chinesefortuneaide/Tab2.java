@@ -80,7 +80,7 @@ public class Tab2 extends Fragment {
         final ImageButton myFortuneBox = view.findViewById(R.id.fortuneImage);
         final TextView myFortune = view.findViewById(R.id.txtFortune);
         Translation translationObject = new Translation();
-
+//Button Action Listener
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
