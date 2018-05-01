@@ -8,7 +8,7 @@
     <!-- TODO: Update blank fragment layout -->
 
 
-    <RelativeLayout
+     <RelativeLayout
         android:id="@+id/fortune"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,7 +18,7 @@
 
             android:id="@+id/btnFortune"
             android:layout_width="300dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:adjustViewBounds="false"
@@ -27,22 +27,23 @@
 
         <ImageButton
             android:id="@+id/fortuneImage"
-            android:layout_width="301dp"
-            android:layout_height="244dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="120dp"
-            android:src="@mipmap/myscrolnew"
-            android:visibility="invisible" />
+            android:layout_width="252dp"
+            android:layout_height="209dp"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/fortunemg"
+            android:textStyle="bold"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/txtFortune"
-            android:layout_width="262dp"
-            android:layout_height="124dp"
+            android:layout_width="236dp"
+            android:layout_height="236dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="142dp"
-            android:textSize="40px" />
+            android:layout_marginBottom="141dp"
+            android:text='the great Patience is key, a wait short or long will have its reward", "?????,???????????fox'
+            android:textSize="70px"
+            android:visibility="visible" />
 
     </RelativeLayout>
 
@@ -51,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="fitEnd"
+        android:layout_marginTop="40dp"
         android:src="@mipmap/dragon"
         android:visibility="gone" />
 

@@ -106,10 +106,19 @@ public class Tab2 extends Fragment {
                 myFortuneBox.setVisibility(View.VISIBLE);
                 myFortune.setText(translationObject.printFortune());
                 //alert.setMessage(translationObject.printFortune());
-                //alert.show();
-            }
-        }
-        );
+                   //alert.show();
+                }
+            });
+
+        myFortuneBox.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Translation translationObject = new Translation();
+
+                    myFortune.setText(translationObject.printFortune());
+                }
+            });
+
         return view;
     }
 
